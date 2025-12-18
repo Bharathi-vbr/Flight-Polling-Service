@@ -37,12 +37,12 @@ Simple Python service that calls the Weatherstack API, stores weather data in Re
  ```
 
 ## Run
-
 - Start Redis.
-- Run the API:
-  - python app.py
-- Service will be available at:
-  - http://localhost:8000
+- Run the script:
+  - python3 main.py
+- The script will:
+  - Call the Weatherstack API.
+  - Store weather data in Redis.
 
 ## Usage
 
